@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+<div class="container mt-3">
+  <h1>Lobo PetShop</h1>
+
+  <a href="/animais">Voltar para a tela inicial</a>
+
+  <h2>Cadastro</h2>
+
+  <form action="/cadastro">
+    <div class="mb-3 mt-3">
+      <label for="nome">Nome:</label>
+      <input type="text" class="form-control" id="nome" placeholder="Informe o nome do animal" name="nome">
+    </div>
+    <div class="mb-3">
+      <label for="peso">Peso:</label>
+      <input type="number" class="form-control" id="peso" placeholder="Informe o peso do animal" name="peso">
+    </div>
+    <div class="mb-3">
+      <label for="idade">Idade:</label>
+      <input type="number" class="form-control" id="idade" placeholder="Informe a idade do animal" name="idade">
+    </div>
+    <button type="submit" class="btn btn-primary">Cadastrar</button>
+    <button type="reset" class="btn btn-warning">Limpar</button>
+  </form>
+</div>
+
+</body>
+</html>
